@@ -24,7 +24,7 @@ html {
 body {
   margin: 0;
   color: var(--ink);
-  font-family: "Segoe UI", "Microsoft JhengHei", sans-serif;
+  font-family: "BiauKai", "DFKai-SB", "KaiTi", "STKaiti", "Microsoft JhengHei", sans-serif;
   background:
     linear-gradient(180deg, rgba(240, 245, 250, 0.9), rgba(230, 237, 245, 0.98)),
     var(--bg);
@@ -112,6 +112,7 @@ select {
 
 .brand-group strong {
   font-size: 1.05rem;
+  font-family: "BiauKai", "DFKai-SB", "KaiTi", "STKaiti", serif;
 }
 
 .brand-group span,
@@ -190,7 +191,7 @@ h3 {
 
 h1,
 h2 {
-  font-family: Georgia, "Times New Roman", "PMingLiU", serif;
+  font-family: "BiauKai", "DFKai-SB", "KaiTi", "STKaiti", serif;
 }
 
 h1 {
@@ -441,12 +442,12 @@ h1 {
   color: var(--accent);
   font-size: 4.6rem;
   line-height: 1;
-  font-family: Georgia, serif;
+  font-family: "BiauKai", "DFKai-SB", "KaiTi", "STKaiti", serif;
 }
 
 .quote-text {
   margin: 10px 0 0;
-  font-family: Georgia, "PMingLiU", serif;
+  font-family: "BiauKai", "DFKai-SB", "KaiTi", "STKaiti", serif;
   font-size: clamp(1.5rem, 3vw, 2.2rem);
   line-height: 1.5;
 }
