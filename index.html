@@ -229,7 +229,16 @@
             <p class="contact-note">服務時間：週一至週五 09:00 - 18:00</p>
           </div>
 
-          <form class="contact-form reveal" id="contact-form">
+          <form
+            class="contact-form reveal"
+            id="contact-form"
+            action="https://formsubmit.co/ggggyyyy@hotmail.com"
+            method="POST"
+          >
+            <input type="hidden" name="_subject" value="官網聯絡需求｜好好上班公司">
+            <input type="hidden" name="_captcha" value="false">
+            <input type="hidden" name="_template" value="table">
+            <input type="hidden" name="_next" value="https://curtisychuang-cpu.github.io/workwell-company-site/thank-you.html">
             <div class="form-row">
               <label for="name">聯絡人姓名</label>
               <input id="name" name="name" type="text" placeholder="請輸入姓名" required>
@@ -270,7 +279,7 @@
             </div>
             <div class="form-actions">
               <button class="button button-primary" type="submit">送出聯絡需求</button>
-              <p id="form-status">送出後會開啟你的 Email 草稿，方便你立即寄出。</p>
+              <p id="form-status">送出後會直接提交表單，首次使用需到收件信箱點擊驗證信完成啟用。</p>
             </div>
           </form>
         </div>

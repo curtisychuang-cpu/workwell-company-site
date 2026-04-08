@@ -506,6 +506,22 @@ h1 {
   gap: 18px;
 }
 
+.thank-you-shell {
+  min-height: calc(100vh - 72px);
+  display: grid;
+  place-items: center;
+}
+
+.thank-you-card {
+  max-width: 760px;
+  padding: 40px;
+  border: 1px solid rgba(255, 255, 255, 0.8);
+  border-radius: 24px;
+  background: var(--surface);
+  box-shadow: 0 18px 48px rgba(18, 37, 55, 0.08);
+  text-align: center;
+}
+
 .form-row {
   display: grid;
   gap: 8px;
@@ -625,6 +641,10 @@ h1 {
   .contact-card,
   .contact-form {
     padding: 22px;
+  }
+
+  .thank-you-card {
+    padding: 24px;
   }
 
   .two-up {
