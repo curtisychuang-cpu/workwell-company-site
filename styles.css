@@ -11,6 +11,7 @@
   --accent-deep: #083b6d;
   --success: #1f7a4c;
   --shadow: 0 24px 70px rgba(11, 31, 53, 0.12);
+  --display-font: "DFKai-SB", "BiauKai", "KaiTi", "STKaiti", serif;
 }
 
 * {
@@ -24,7 +25,7 @@ html {
 body {
   margin: 0;
   color: var(--ink);
-  font-family: "BiauKai", "DFKai-SB", "KaiTi", "STKaiti", "Microsoft JhengHei", sans-serif;
+  font-family: "Microsoft JhengHei", "PingFang TC", sans-serif;
   background:
     linear-gradient(180deg, rgba(240, 245, 250, 0.9), rgba(230, 237, 245, 0.98)),
     var(--bg);
@@ -112,7 +113,7 @@ select {
 
 .brand-group strong {
   font-size: 1.05rem;
-  font-family: "BiauKai", "DFKai-SB", "KaiTi", "STKaiti", serif;
+  font-family: var(--display-font);
 }
 
 .brand-group span,
@@ -191,7 +192,19 @@ h3 {
 
 h1,
 h2 {
-  font-family: "BiauKai", "DFKai-SB", "KaiTi", "STKaiti", serif;
+  font-family: var(--display-font);
+}
+
+h3,
+.panel-label,
+.section-tag,
+.card-index,
+.button,
+.metric-list strong,
+.timeline-item span,
+.contact-card h3,
+.brand-mark {
+  font-family: var(--display-font);
 }
 
 h1 {
@@ -442,12 +455,12 @@ h1 {
   color: var(--accent);
   font-size: 4.6rem;
   line-height: 1;
-  font-family: "BiauKai", "DFKai-SB", "KaiTi", "STKaiti", serif;
+  font-family: var(--display-font);
 }
 
 .quote-text {
   margin: 10px 0 0;
-  font-family: "BiauKai", "DFKai-SB", "KaiTi", "STKaiti", serif;
+  font-family: var(--display-font);
   font-size: clamp(1.5rem, 3vw, 2.2rem);
   line-height: 1.5;
 }
